@@ -1,0 +1,31 @@
+project = ""
+
+region  = ""
+
+cluster_name = ""
+
+cluster_zone = ""
+
+vpc_name = ""
+
+apis = [
+   "cloudresourcemanager.googleapis.com",
+   "compute.googleapis.com",
+   "container.googleapis.com",
+   "logging.googleapis.com",
+   "secretmanager.googleapis.com"    
+]
+
+ip_cidr_range_subnet_public = "10.0.0.0/20"
+
+ip_cidr_range_subnet_private = "10.0.16.0/20"
+
+ip_cidr_range_pods = "172.16.0.0/14"
+
+ip_cidr_range_services = "172.20.0.0/18"
+
+master_ipv4_cidr_block = "192.168.0.0/28"
+
+max_node_count = 5
+
+min_node_count = 1
