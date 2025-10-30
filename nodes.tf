@@ -15,7 +15,7 @@ resource "google_container_node_pool" "gke-node-pool" {
 
   management {
     auto_upgrade = true
-    auto_repair = true
+    auto_repair  = true
   }
 
   node_config {
